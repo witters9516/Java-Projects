@@ -1,0 +1,35 @@
+//PennysForPay Program
+//Instructions
+/*
+
+1. Ask the user how many days they will be working until the end of the period.
+2. Perform input Validation
+3. Use a loop to keep a running total and calculate the amount earns for that day
+
+notes:
+a. the starting salary for day one is always .01
+b. each day after day one, the amount will double(Day 2 - .02, Day 3 - 0.4, ect)
+c. Number inputed must be greater than 0 for it to work.(This is where the Input Validation comes in.)
+
+*/
+
+//Import Statement
+
+//public class
+	//public void main method
+		///variables
+		//input(days the user will be working)
+			//double days_In_Period = -1; (for validation purposes)
+		//salary for the day.(this variable will be the one doubling)
+			//double salary = 0.01; (starts at the value of a penny)
+		//runningTotal
+			//totalSalary = 0; (to be able to do math)
+			
+		
+		///nested loop
+		//Reasons: You will be able to do the input validation inside and will save time.
+		//while(days_In_Period < 1) //The initializing ensures this loop will run
+		{
+			//ask for input
+			"How many days will you be working?"
+		}
